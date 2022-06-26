@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 @RestController
 @RequestMapping("/api/v1/users")
 public class UserController {
+    //todo remove to db
     private final List<User> users = Stream.of(
                     new User(1L, "Andrii", "Kobryn"),
                     new User(2L, "Mykhailo", "Perdun"),
